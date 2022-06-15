@@ -1,3 +1,6 @@
+
+![Planlife Image](https://user-images.githubusercontent.com/59119237/173933594-c5f4c902-bd9a-43de-809d-309f98e8be00.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
