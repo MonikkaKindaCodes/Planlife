@@ -1,0 +1,40 @@
+/* Main Top */
+.main--top {
+  min-height: 14rem;
+  padding: 4rem 3rem;
+  border-bottom: 0.5px dotted var(--brandMediumLightGray);
+}
+
+.main--top__div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main--top__welcome {
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  color: var(--brandMediumLightGray);
+}
+
+.main--top__title {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: var(--brandNavy);
+}
+
+.main--rest {
+  padding: 3rem;
+}
+/* Search */
+.main--top__input {
+  min-width: 35rem;
+  padding: 1rem;
+  border: 0.2px dotted var(--brandMediumLightGray);
+  border-radius: 0.1rem;
+  outline: none;
+}
+
+.main--top__input::placeholder {
+  color: var(--brandMediumLightGray);
+  font-size: 0.9rem;
+}

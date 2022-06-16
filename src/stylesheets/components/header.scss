@@ -1,0 +1,38 @@
+/* Sidebar Header */
+
+.sidebar--header {
+  min-width: 17%;
+  border-right: 0.5px dotted var(--brandMediumLightGray);
+}
+
+.sidebar--header__div {
+  padding: 3rem 2rem;
+  background-color: var(--brandNavy);
+}
+.sidebar--header__title {
+  font-size: 2rem;
+  color: var(--brandWhite);
+  text-align: left;
+}
+
+.sidebar--header__span {
+  color: var(--brandGreen);
+}
+
+.sidebar--header__subText {
+  font-size: 1.2rem;
+  color: var(--brandMediumGray);
+  font-weight: 500;
+  margin-bottom: 3rem;
+  text-align: left;
+}
+
+.sidebar--header__button {
+  color: var(--brandWhite);
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: var(--brandGreen);
+  padding: 1rem 4.5rem;
+  max-width: 100%;
+  white-space: nowrap;
+}
