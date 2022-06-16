@@ -1,9 +1,6 @@
 import React from "react";
 
-interface MainRestProps {
-  children?: any;
-}
-export function MainRest({ children }: MainRestProps) {
+export function MainRest() {
   return (
     <>
       <div className="main--rest">
@@ -48,7 +45,6 @@ export function MainRest({ children }: MainRestProps) {
           </div>
         </section>
       </div>
-      {children}
     </>
   );
 }

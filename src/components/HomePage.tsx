@@ -5,10 +5,9 @@ import Main from "./Main/Main";
 import Sidebar from "./Sidebar";
 
 interface HomeProps {
-  children?: any;
   pageTitle: string;
 }
-export function Home({ children, pageTitle }: HomeProps) {
+export function Home({ pageTitle }: HomeProps) {
   return (
     <>
       <Helmet>
@@ -18,9 +17,7 @@ export function Home({ children, pageTitle }: HomeProps) {
         <Header />
         <Sidebar />
         <Main />
-        {children}
       </div>
-      ;
     </>
   );
 }

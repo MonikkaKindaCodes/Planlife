@@ -1,9 +1,6 @@
 import React from "react";
 
-interface MainTopProps {
-  children?: any;
-}
-export function MainTop({ children }: MainTopProps) {
+export function MainTop() {
   return (
     <>
       <section className="main--top">
@@ -26,7 +23,6 @@ export function MainTop({ children }: MainTopProps) {
           </div>
         </div>
       </section>
-      {children}
     </>
   );
 }

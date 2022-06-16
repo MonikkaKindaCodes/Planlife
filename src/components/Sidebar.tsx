@@ -1,9 +1,6 @@
 import React from "react";
 
-interface SidebarProps {
-  children?: any;
-}
-export function Sidebar({ children }: SidebarProps) {
+export function Sidebar() {
   return (
     <>
       <section className="sidebar--menu">
@@ -46,7 +43,6 @@ export function Sidebar({ children }: SidebarProps) {
           </nav>
         </div>
       </section>
-      {children}
     </>
   );
 }

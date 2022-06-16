@@ -1,9 +1,5 @@
 import React from "react";
-
-interface HeaderProps {
-  children?: any;
-}
-export function Header({ children }: HeaderProps) {
+export function Header() {
   return (
     <>
       <div>
@@ -16,7 +12,6 @@ export function Header({ children }: HeaderProps) {
           </p>
           <a className="sidebar--header__button">+ Create New</a>
         </header>
-        {children}
       </div>
     </>
   );

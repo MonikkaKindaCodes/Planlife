@@ -1,9 +1,6 @@
 import React from "react";
 
-interface MainRecipesProps {
-  children?: any;
-}
-export function MainRecipes({ children }: MainRecipesProps) {
+export function MainRecipes() {
   return (
     <>
       <section className="section--recipes">
@@ -112,7 +109,6 @@ export function MainRecipes({ children }: MainRecipesProps) {
           </div>
         </div>
       </section>
-      {children}
     </>
   );
 }

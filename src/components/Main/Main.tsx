@@ -5,10 +5,7 @@ import MainRest from "./MainHero";
 import MainRecipes from "./MainRecipes";
 import MainTop from "./MainTop";
 
-interface MainContentProps {
-  children?: any;
-}
-export function MainContent({ children }: MainContentProps) {
+export function MainContent() {
   return (
     <>
       <main className="main">
@@ -16,7 +13,6 @@ export function MainContent({ children }: MainContentProps) {
         <MainHero />
         <MainCategories />
         <MainRecipes />
-        {children}
       </main>
     </>
   );
