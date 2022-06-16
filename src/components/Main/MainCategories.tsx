@@ -1,16 +1,11 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 
 interface MainCategoriesProps {
   children?: any;
-  pageTitle?: string;
 }
-export function MainCategories({ children, pageTitle }: MainCategoriesProps) {
+export function MainCategories({ children }: MainCategoriesProps) {
   return (
     <>
-      <Helmet>
-        <title>{`Planlife | ${pageTitle}`}</title>
-      </Helmet>
       <section className="section--categories">
         <div className="section--categories__titleDiv">
           <h3 className="section--categories__title">Categories</h3>

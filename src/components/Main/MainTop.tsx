@@ -1,16 +1,11 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 
 interface MainTopProps {
   children?: any;
-  pageTitle?: string;
 }
-export function MainTop({ children, pageTitle }: MainTopProps) {
+export function MainTop({ children }: MainTopProps) {
   return (
     <>
-      <Helmet>
-        <title>{`Planlife | ${pageTitle}`}</title>
-      </Helmet>
       <section className="main--top">
         <div className="main--top__userWelcome">
           <p className="main--top__welcome">

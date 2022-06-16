@@ -1,16 +1,11 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 
 interface SidebarProps {
   children?: any;
-  pageTitle?: string;
 }
-export function Sidebar({ children, pageTitle }: SidebarProps) {
+export function Sidebar({ children }: SidebarProps) {
   return (
     <>
-      <Helmet>
-        <title>{`Planlife | ${pageTitle}`}</title>
-      </Helmet>
       <section className="sidebar--menu">
         <div className="sidebar--menu__top">
           <h4 className="sidebar--menu__topTitle">Menu</h4>

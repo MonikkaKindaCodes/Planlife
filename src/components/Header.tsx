@@ -1,16 +1,11 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 
 interface HeaderProps {
   children?: any;
-  pageTitle?: string;
 }
-export function Header({ children, pageTitle }: HeaderProps) {
+export function Header({ children }: HeaderProps) {
   return (
     <>
-      <Helmet>
-        <title>{`Planlife | ${pageTitle}`}</title>
-      </Helmet>
       <div>
         <header className="sidebar--header__div">
           <h1 className="sidebar--header__title">

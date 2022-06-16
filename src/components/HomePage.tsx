@@ -6,13 +6,13 @@ import Sidebar from "./Sidebar";
 
 interface HomeProps {
   children?: any;
-  pageTitle?: string;
+  pageTitle: string;
 }
 export function Home({ children, pageTitle }: HomeProps) {
   return (
     <>
       <Helmet>
-        <title>{`Planlife | ${pageTitle}`}</title>
+        <title>{`Planlife | ${(pageTitle = "Home")}`}</title>
       </Helmet>
       <div className="container">
         <Header />

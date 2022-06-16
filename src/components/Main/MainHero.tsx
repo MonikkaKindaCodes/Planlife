@@ -1,16 +1,11 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 
 interface MainRestProps {
   children?: any;
-  pageTitle?: string;
 }
-export function MainRest({ children, pageTitle }: MainRestProps) {
+export function MainRest({ children }: MainRestProps) {
   return (
     <>
-      <Helmet>
-        <title>{`Planlife | ${pageTitle}`}</title>
-      </Helmet>
       <div className="main--rest">
         <section className="section--hero">
           <div className="section--hero__imgContainer">

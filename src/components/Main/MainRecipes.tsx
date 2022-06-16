@@ -1,16 +1,11 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 
 interface MainRecipesProps {
   children?: any;
-  pageTitle?: string;
 }
-export function MainRecipes({ children, pageTitle }: MainRecipesProps) {
+export function MainRecipes({ children }: MainRecipesProps) {
   return (
     <>
-      <Helmet>
-        <title>{`Planlife | ${pageTitle}`}</title>
-      </Helmet>
       <section className="section--recipes">
         <h3 className="section--recipes__title">Suggested Recipes for you</h3>
         <p className="section--recipes__subtext">
