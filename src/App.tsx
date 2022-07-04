@@ -1,13 +1,20 @@
 import React from "react";
-import logo from "./logo.svg";
-
-import HomePage from "./components/HomePage";
+import { ThemeProvider } from "styled-components";
+import Header from "./components/Header";
+import { Container } from "./components/styles/Container.styled";
+import theme from "./components/styles/Theme";
+import GlobalStyles from "./components/styles/Global";
 
 function App() {
   return (
-    <div>
-      <HomePage pageTitle={"Home"} />"
-    </div>
+    <ThemeProvider theme={theme}>
+      <>
+        <GlobalStyles />
+        <Container>
+          <Header />
+        </Container>
+      </>
+    </ThemeProvider>
   );
 }
 
