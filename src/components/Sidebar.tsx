@@ -1,48 +1,69 @@
-import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGaugeSimpleHigh,
+  faMagnifyingGlass,
+  faEnvelopeOpenText,
+  faUser,
+  faCalendarCheck,
+  faComment,
+  faGears,
+  faCircleQuestion,
+  faArrowRightFromBracket,
+} from "@fortawesome/free-solid-svg-icons";
+import { StyledSidebar } from "./styles/Sidebar.styles";
 
 export function Sidebar() {
   return (
     <>
-      <section className="sidebar--menu">
-        <div className="sidebar--menu__top">
-          <h4 className="sidebar--menu__topTitle">Menu</h4>
-          <nav className="sidebar--menu__mainNav">
-            <a href="#" className="sidebar--menu__mainLink">
-              <i className="fa-solid fa-gauge-high"></i>Dashboard
+      <StyledSidebar>
+        <div>
+          <h4>Menu</h4>
+          <nav>
+            <a>
+              <FontAwesomeIcon icon={faGaugeSimpleHigh} />
+              <span>Dashboard</span>
             </a>
-            <a href="#" className="sidebar--menu__mainLink">
-              <i className="fa-solid fa-magnifying-glass"></i>Discover Recipes
+            <a>
+              <FontAwesomeIcon icon={faMagnifyingGlass} />
+              <span>Discover Recipes</span>
             </a>
-            <a href="#" className="sidebar--menu__mainLink">
-              <i className="fa-solid fa-envelope-open-text"></i>My Recipes
+            <a>
+              <FontAwesomeIcon icon={faEnvelopeOpenText} />
+              <span>My Recipes</span>
             </a>
-            <a href="#" className="sidebar--menu__mainLink">
-              <i className="fa-regular fa-user"></i>Clients
+            <a>
+              <FontAwesomeIcon icon={faUser} />
+              <span>Clients</span>
             </a>
-            <a href="#" className="sidebar--menu__mainLink">
-              <i className="fa-regular fa-calendar-check"></i>Check-Ins
+            <a>
+              <FontAwesomeIcon icon={faCalendarCheck} />
+              <span>Check-Ins</span>
             </a>
-            <a href="#" className="sidebar--menu__mainLink">
-              <i className="fa-regular fa-comment"></i>Messages
-              <span className="sidebar--menu__notifications">99+</span>
-            </a>
-          </nav>
-        </div>
-        <div className="sidebar--menu__bottom">
-          <h4 className="sidebar--menu__bottomTitle">Your Account</h4>
-          <nav className="sidebar--menu__secondaryNav">
-            <a href="#" className="sidebar--menu__secondaryLink">
-              <i className="fa-solid fa-gears"></i>Account
-            </a>
-            <a href="#" className="sidebar--menu__secondaryLink">
-              <i className="fa-regular fa-circle-question"></i>Help & Support
-            </a>
-            <a href="#" className="sidebar--menu__secondaryLink">
-              <i className="fa-solid fa-arrow-right-from-bracket"></i>Log Out
+            <a>
+              <FontAwesomeIcon icon={faComment} />
+              <span>Messages</span>
+              <small>999+</small>
             </a>
           </nav>
         </div>
-      </section>
+        <div>
+          <h4>Your Account</h4>
+          <nav>
+            <a>
+              <FontAwesomeIcon icon={faGears} />
+              <span>Account</span>
+            </a>
+            <a>
+              <FontAwesomeIcon icon={faCircleQuestion} />
+              <span>Help & Support</span>
+            </a>
+            <a>
+              <FontAwesomeIcon icon={faArrowRightFromBracket} />
+              <span>Log Out</span>
+            </a>
+          </nav>
+        </div>
+      </StyledSidebar>
     </>
   );
 }
