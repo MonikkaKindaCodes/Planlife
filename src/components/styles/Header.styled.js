@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const StyledHeader = styled.header(
   ({ theme }) => `
-padding: 3rem 2rem;
+  padding: 3rem 2rem;
   background-color: ${theme.colors.brandNavy};
 
-  ${theme.breakpoints.M} {
+  ${theme.breakpoints.XXS}, ${theme.breakpoints.XS}, ${theme.breakpoints.S}, ${theme.breakpoints.M}  {
     width: 100vw;
   }
 
