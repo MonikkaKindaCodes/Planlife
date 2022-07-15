@@ -1,5 +1,8 @@
 import { StyledMain } from "../styles/Main.styled";
+import MainCategories from "./MainCategories";
 import MainHero from "./MainHero";
+import MainRecipes from "./MainRecipes";
+import MainRest from "./MainRest";
 import MainTop from "./MainTop";
 
 export function Main() {
@@ -7,7 +10,7 @@ export function Main() {
     <>
       <StyledMain>
         <MainTop />
-        <MainHero />
+        <MainRest />
       </StyledMain>
     </>
   );
