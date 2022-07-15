@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const StyledSidebar = styled.aside(
   ({ theme }) => `
+  max-width: 100%;
   background-color: ${theme.colors.brandLightBlue};
   display: flex;
   flex-direction: column;
@@ -12,7 +13,6 @@ export const StyledSidebar = styled.aside(
   color: ${theme.colors.brandMediumGray};
 
   ${theme.breakpoints.M} {
-      width: 30vw;
       text-align: center;
       padding: 3rem;
 

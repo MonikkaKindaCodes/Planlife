@@ -9,22 +9,14 @@ import {
   faGears,
   faCircleQuestion,
   faArrowRightFromBracket,
-  faBars,
 } from "@fortawesome/free-solid-svg-icons";
-import { StyledSidebar } from "./styles/Sidebar.styles";
+import { StyledSidebar } from "./styles/Sidebar.styled";
 
 export function Sidebar() {
   const showNavigationMenu = () => {};
   return (
     <>
       <StyledSidebar>
-        <section>
-          <FontAwesomeIcon
-            icon={faBars}
-            size={"2x"}
-            onClick={showNavigationMenu}
-          />
-        </section>
         <div>
           <h4>Menu</h4>
           <nav>

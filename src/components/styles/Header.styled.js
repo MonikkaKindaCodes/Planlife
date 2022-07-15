@@ -5,10 +5,6 @@ export const StyledHeader = styled.header(
   padding: 3rem 2rem;
   background-color: ${theme.colors.brandNavy};
 
-  ${theme.breakpoints.XXS}, ${theme.breakpoints.XS}, ${theme.breakpoints.S}, ${theme.breakpoints.M}  {
-    width: 100vw;
-  }
-
   h1 {
     font-size: 2rem;
     color: ${theme.colors.brandWhite};
