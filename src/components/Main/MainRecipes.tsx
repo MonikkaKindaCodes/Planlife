@@ -1,3 +1,10 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faChevronLeft,
+  faChevronRight,
+  faClock,
+  faStar,
+} from "@fortawesome/free-solid-svg-icons";
 export function MainRecipes() {
   return (
     <>
@@ -7,8 +14,12 @@ export function MainRecipes() {
           Because you searched for Salad Dressing
         </p>
         <div className="section--recipes__arrows">
-          <i className="fa-solid fa-chevron-left"></i>
-          <i className="fa-solid fa-chevron-right"></i>
+          <span>
+            <FontAwesomeIcon icon={faChevronLeft} />
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faChevronRight} />
+          </span>
         </div>
         <div className="section--recipes__sections">
           <div className="section--recipes__pod">
@@ -26,11 +37,27 @@ export function MainRecipes() {
             </p>
             <br />
             <div className="section--recipes__timer">
-              <i className="fa-regular fa-clock"></i>
+              <span>
+                <FontAwesomeIcon icon={faClock} />
+              </span>
               <span className="section--recipes__cookTime">1</span>
             </div>
             <div className="section--recipes__rating">
-              star star star star star
+              <span>
+                <FontAwesomeIcon icon={faStar} />
+              </span>
+              <span>
+                <FontAwesomeIcon icon={faStar} />
+              </span>
+              <span>
+                <FontAwesomeIcon icon={faStar} />
+              </span>
+              <span>
+                <FontAwesomeIcon icon={faStar} />
+              </span>
+              <span>
+                <FontAwesomeIcon icon={faStar} />
+              </span>
             </div>
           </div>
         </div>
@@ -50,11 +77,27 @@ export function MainRecipes() {
             </p>
             <br />
             <div className="section--recipes__timer">
-              <i className="fa-regular fa-clock"></i>
+              <span>
+                <FontAwesomeIcon icon={faClock} />
+              </span>
               <span className="section--recipes__cookTime">1</span>
             </div>
             <div className="section--recipes__rating">
-              star star star star star
+              <span>
+                <FontAwesomeIcon icon={faStar} />
+              </span>
+              <span>
+                <FontAwesomeIcon icon={faStar} />
+              </span>
+              <span>
+                <FontAwesomeIcon icon={faStar} />
+              </span>
+              <span>
+                <FontAwesomeIcon icon={faStar} />
+              </span>
+              <span>
+                <FontAwesomeIcon icon={faStar} />
+              </span>
             </div>
           </div>
         </div>
@@ -74,11 +117,27 @@ export function MainRecipes() {
             </p>
             <br />
             <div className="section--recipes__timer">
-              <i className="fa-regular fa-clock"></i>
+              <span>
+                <FontAwesomeIcon icon={faClock} />
+              </span>
               <span className="section--recipes__cookTime">1</span>
             </div>
             <div className="section--recipes__rating">
-              star star star star star
+              <span>
+                <FontAwesomeIcon icon={faStar} />
+                <span>
+                  <FontAwesomeIcon icon={faStar} />
+                </span>
+                <span>
+                  <FontAwesomeIcon icon={faStar} />
+                </span>
+                <span>
+                  <FontAwesomeIcon icon={faStar} />
+                </span>
+                <span>
+                  <FontAwesomeIcon icon={faStar} />
+                </span>
+              </span>
             </div>
           </div>
         </div>
@@ -98,11 +157,27 @@ export function MainRecipes() {
             </p>
             <br />
             <div className="section--recipes__timer">
-              <i className="fa-regular fa-clock"></i>
+              <span>
+                <FontAwesomeIcon icon={faClock} />
+              </span>
               <span className="section--recipes__cookTime">1</span>
             </div>
             <div className="section--recipes__rating">
-              star star star star star
+              <span>
+                <FontAwesomeIcon icon={faStar} />
+              </span>
+              <span>
+                <FontAwesomeIcon icon={faStar} />
+              </span>
+              <span>
+                <FontAwesomeIcon icon={faStar} />
+              </span>
+              <span>
+                <FontAwesomeIcon icon={faStar} />
+              </span>
+              <span>
+                <FontAwesomeIcon icon={faStar} />
+              </span>
             </div>
           </div>
         </div>
