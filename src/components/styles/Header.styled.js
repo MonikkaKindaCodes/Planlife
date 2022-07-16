@@ -2,12 +2,8 @@ import styled from "styled-components";
 
 export const StyledHeader = styled.header(
   ({ theme }) => `
-padding: 3rem 2rem;
+  padding: 3rem 2rem;
   background-color: ${theme.colors.brandNavy};
-
-  ${theme.breakpoints.M} {
-    width: 100vw;
-  }
 
   h1 {
     font-size: 2rem;

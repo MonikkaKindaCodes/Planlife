@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import { Container } from "./components/styles/Container.styled";
 import theme from "./components/styles/Theme";
 import GlobalStyles from "./components/styles/Global";
+import Main from "./components/Main/Main";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <GlobalStyles />
         <Container>
           <Header />
+          <Main />
         </Container>
       </>
     </ThemeProvider>

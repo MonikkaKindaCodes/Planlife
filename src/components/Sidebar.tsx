@@ -10,9 +10,10 @@ import {
   faCircleQuestion,
   faArrowRightFromBracket,
 } from "@fortawesome/free-solid-svg-icons";
-import { StyledSidebar } from "./styles/Sidebar.styles";
+import { StyledSidebar } from "./styles/Sidebar.styled";
 
 export function Sidebar() {
+  const showNavigationMenu = () => {};
   return (
     <>
       <StyledSidebar>
